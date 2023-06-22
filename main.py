@@ -10,7 +10,7 @@ from src.Utils.tools import create_todays_games_from_odds, get_json_data, to_dat
 from src.DataProviders.SbrOddsProvider import SbrOddsProvider
 
 
-todays_games_url = 'https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2022/scores/00_todays_scores.json'
+todays_games_url = 'http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1'
 data_url = 'https://stats.nba.com/stats/leaguedashteamstats?' \
            'Conference=&DateFrom=&DateTo=&Division=&GameScope=&' \
            'GameSegment=&LastNGames=0&LeagueID=00&Location=&' \
